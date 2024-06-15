@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23756050440",
+    "project_id": "indonesia-sehat-a22c1",
+    "storage_bucket": "indonesia-sehat-a22c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23756050440:android:8e6a5c4a573012c92fc1bd",
+        "android_client_info": {
+          "package_name": "com.nanostd.indonesiasehat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPDGRwYzvcvk9p3BHRuoG_0KrUm1n3BTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

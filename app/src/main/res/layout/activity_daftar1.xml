@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Daftar1Activity"
+    android:background="@drawable/bg_daftar2">
+
+    <ImageView
+        android:layout_marginTop="125dp"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tx_daftar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="340dp"
+                android:layout_height="48dp"
+                android:hint="Masukkan email anda"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:textSize="15dp"
+                android:layout_gravity="center" />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sandi"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/et_sandi"
+                android:layout_width="340dp"
+                android:layout_height="48dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:textSize="15dp"
+                android:hint="Masukkan sandi anda"
+                android:layout_gravity="center" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:layout_marginTop="15dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/et_namaUser"
+                android:layout_width="340dp"
+                android:layout_height="48dp"
+                android:hint="Tulisakan nama lenkap anda"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:textSize="15dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <ImageView
+            android:id="@+id/btn_daftar"
+            android:layout_width="246dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/btn_daftar1"/>
+
+        <ImageView
+            android:id="@+id/iv_sdhMasuk"
+            android:layout_width="230dp"
+            android:layout_height="10dp"
+            android:src="@drawable/sdh_masuk"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="35dp"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

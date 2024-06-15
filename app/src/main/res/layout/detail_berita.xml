@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="10dp"
+    android:outlineSpotShadowColor="@color/gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_gambar_berita"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/photo_berita"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPraimary"
+            android:text="Judul"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <TextView
+            android:id="@+id/tv_klik_isi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="13dp"
+            android:textColor="@color/gray"
+            android:text="Klip dari isi"
+            android:fontFamily="@font/poppins_bold"/>
+
+            <TextView
+                android:id="@+id/tv_sumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="13dp"
+                android:textColor="@color/lightBlue"
+                android:text="Sumber : blabal"
+                android:fontFamily="@font/poppins_bold"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>

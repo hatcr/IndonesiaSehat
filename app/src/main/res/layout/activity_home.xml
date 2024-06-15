@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/colorPraimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pagi" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="-200dp"
+        >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_setting"/>
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/jst_icon" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_notiv"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akun anda"
+            android:layout_marginTop="-10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_profil"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/pp_user"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/pp_user" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nama_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="25px"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textColor="#096DA5"
+                    android:text="Nama user" />
+
+
+                <TextView
+                    android:id="@+id/gmail_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:textSize="20px"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textColor="#65C8FF"
+                    android:text="Gmail user" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="16px"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:textColor="@color/gray"
+                    android:text="Klik untuk melihat profil anda" />
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+<!--        <ScrollView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="Apa yang sedang anda cari ?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp">
+
+<!--           yang klik logo nya salah-->
+           <ImageView
+               android:layout_width="170dp"
+               android:layout_height="170dp"
+               android:src="@drawable/ft_klinik" />
+
+           <ImageView
+               android:layout_width="170dp"
+               android:layout_height="170dp"
+               android:src="@drawable/ft_konsul"/>
+
+       </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/ft_tanya"/>
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/ft_pesan"/>
+
+            </LinearLayout>
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_lainnya_fitur"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="8dp"-->
+<!--                android:text="Lainnya"-->
+<!--                android:fontFamily="@font/poppins_bold"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textColor="@color/white"/>-->
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="Berita terkini"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/berita_1"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/berita_1"
+            android:layout_gravity="center"/>
+
+
+
+        <ImageView
+            android:id="@+id/berita_2"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/berita_2"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/berita_3"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/berita_3"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/berita_4"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/berita_4"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/tv_lainnya_berita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8dp"
+            android:text="Lainnya"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8dp"
+            android:text="Developed by Nano Studio"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_gravity="center"
+            android:textColor="@color/lightBlue"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

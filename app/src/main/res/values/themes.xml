@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IndonesiaSehat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPraimary</item>
+        <item name="colorPrimaryVariant">@color/lightBlue</item>
+        <item name="android:statusBarColor">@color/colorPraimary</item>
+    </style>
+
+    <style name="Theme.IndonesiaSehat" parent="Base.Theme.IndonesiaSehat" />
+</resources>
